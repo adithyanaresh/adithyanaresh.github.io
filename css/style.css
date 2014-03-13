@@ -1,8 +1,7 @@
-#details{
-
-
-}
-.font_0 {
-	font: normal normal bold 43px/1.2em 'noticia text', serif;
-	color: rgb(96, 96, 96);
-}
+.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	}
