@@ -1,0 +1,131 @@
+/* for contact page starts */
+dl dt {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+dl dd {
+    margin-top: 2px;
+}
+
+dl dd pre {
+    margin: 0;
+}
+
+ul.ico-list {
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+ul.icon-list {
+    overflow: hidden;
+}
+
+ul.ico-list > li {           
+    float: left;
+    width: 100px;
+    margin: 0 5px 50px;
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+ul.ico-list > li dl {
+    margin: 0;
+}
+
+ul.ico-list > li dl dd .cropped {
+    display: none;
+}
+
+ul.ico-list > li:hover dl dd .cropped {
+    display: inline;
+}
+
+ul.ico-list > li:hover dl dt {
+    color: #666;
+}
+
+ul.ico-list li dl dd a {
+    text-decoration: none;
+}
+
+ul.ico-list li dl dd img {
+    border: none;
+    display: block;           
+    width: 64px;
+    height: 64px;
+}
+
+.ico-list dl dt {
+    width: 100px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.ico-list dl dd {
+    margin: 0;
+}
+
+.badge {
+    display: block;
+    margin: 0 0 20px;
+    clear: left;
+} 
+
+#wrap {
+  background: none repeat scroll 0 0 #fff;
+  vertical-align: left;
+    border: 1px solid #999999;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px #333333, 1px 1px 200px #bcbcbc inset;
+    color: #666666;
+    font-family: arial,serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px auto 25px auto;
+    padding: 20px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 900px;
+  height:530px;
+  opacity:.9;
+  position:relative;
+  z-index:99;
+}
+#wrap h3 {
+  font-size:45px; font-family:georgia; font-weight:normal; color:#000000; line-height:50px; padding:0; margin:0;
+ }
+
+ .top-btn {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(0, 0, 0, 0.06)), color-stop(100%, rgba(255, 255, 255, 0.06)));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(255, 255, 255, 0.06));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(255, 255, 255, 0.06));
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(255, 255, 255, 0.06));
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(255, 255, 255, 0.06));
+  border: solid 1px #a5a5a5;
+  -webkit-border-radius: 13px 16px;
+  -moz-border-radius: 13px 12px 12px 13px / 16px 16px 17px 17px;
+  border-radius: 13px 12px 12px 13px / 16px 16px 17px 17px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.56), inset 0 2px rgba(255, 255, 255, 0.59);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.56), inset 0 2px rgba(255, 255, 255, 0.59);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.56), inset 0 2px rgba(255, 255, 255, 0.59);
+  color: #7e7e7e;
+  font-size: 12px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  line-height: 12px;
+  line-height: 0.75rem;
+  padding: 10px 35px;
+  position: absolute;
+  right: 5%;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 5%;
+  z-index: 10;
+}
+.top-btn:hover, .top-btn:focus, .top-btn:active {
+  background: #fff;
+  color: #232323;
+}
